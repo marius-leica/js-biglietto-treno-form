@@ -11,13 +11,57 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <main>
-    <div class="container">
-        <h1></h1>
-    </div>
-</main>
-
-<body>
-    <script src="js/main.js"></script>
-</body>
+    <div class="section bg-primary">
+        <div class="container">
+            <h1 class="text-center text-white py-3">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="form-container bg-white rounded text-primary pt-4 pb-3">
+                <form>
+                    <div>
+                        <label class="pb-3" for="userName">Nome e Cognome</label>
+                        <input type="text" placeholder="Inserire Nome e Cognome" name="userName"></div>
+                    <div>
+                        <label class="pb-3" for="distance">Km da percorrere</label>
+                        <input type="number" placeholder="Inserire Km da percorrere" name="distance"></div>
+                    <div>
+                        <label class="pb-3" for="userAge">Fascia d'età</label>
+                        <input type="number" placeholder="Inserire età" name="userAge"></div>
+                </form>
+                <div class="mt-5">
+                    <button type="button" class="btn btn-light m-1">Genera</button>
+                    <button type="button" class="btn btn-light m-1">Annula</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-white pt-3">IL TUO BIGLIETTO</h2>
+            <div class="form-container bg-white text-primary pt-4 px-4 pb-3 text-black text-start">
+                <div class="border-bottom">
+                    <h4 class="">DETTAGLIO PASSEGGERI</h4>
+                </div>
+                <div class="border-bottom">
+                    <div class="row">
+                        <div class="col-md-4 bg-secondary">
+                            <h4 class="pt-3">NOME PASSEGGERO</h4>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="pt-3">Offerta</h6>
+                            <span></span>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="pt-3">Carrozza</h6>
+                            <span></span>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="pt-3">Codice CP</h6>
+                            <span></span>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="pt-3">Costo biglietto</h6>
+                            <span></span>
+                        </div>
+                    </div>
+                </div </div> </div> </div> </main> <body>
+                <script src="js/main.js"></script>
+                </body>
 
 </html>
