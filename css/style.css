@@ -10,6 +10,10 @@
 
 }
 
+#display-custom {
+    display: none;
+}
+
 .form-container {
     height: 100%;
     max-width: 1000px;
